@@ -15,6 +15,7 @@
 		15FC8A471BB9563100D79926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FC8A451BB9563100D79926 /* LaunchScreen.storyboard */; };
 		15FC8A521BB9563100D79926 /* SwiftyCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A511BB9563100D79926 /* SwiftyCollectionViewTests.swift */; };
 		15FC8A5D1BB9563100D79926 /* SwiftyCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A5C1BB9563100D79926 /* SwiftyCollectionViewUITests.swift */; };
+		15FC8A6B1BB9578B00D79926 /* CatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC8A6A1BB9578B00D79926 /* CatalogCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15FC8A581BB9563100D79926 /* SwiftyCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC8A5C1BB9563100D79926 /* SwiftyCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCollectionViewUITests.swift; sourceTree = "<group>"; };
 		15FC8A5E1BB9563100D79926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FC8A6A1BB9578B00D79926 /* CatalogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				15FC8A391BB9563100D79926 /* AppDelegate.swift */,
 				15FC8A3B1BB9563100D79926 /* ViewController.swift */,
+				15FC8A6A1BB9578B00D79926 /* CatalogCollectionViewCell.swift */,
 				15FC8A3D1BB9563100D79926 /* Main.storyboard */,
 				15FC8A431BB9563100D79926 /* Assets.xcassets */,
 				15FC8A451BB9563100D79926 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FC8A6B1BB9578B00D79926 /* CatalogCollectionViewCell.swift in Sources */,
 				15FC8A3C1BB9563100D79926 /* ViewController.swift in Sources */,
 				15FC8A421BB9563100D79926 /* SwiftyCollectionView.xcdatamodeld in Sources */,
 				15FC8A3A1BB9563100D79926 /* AppDelegate.swift in Sources */,
